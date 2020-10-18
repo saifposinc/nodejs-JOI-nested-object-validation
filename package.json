@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-joi-nested-object-validation",
+  "version": "1.0.0",
+  "description": "Nested object & Array validation with JOI.  Two nested objects are given: personalInfo & preferences; preferences: arrayStrings - means preferences refers to arrayStrings which is defined prior. Both objects are validated using JOI.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saif",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^17.2.1"
+  }
+}
